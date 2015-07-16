@@ -3,6 +3,11 @@ date: 2014-05-30 14:38:29
 tags: hexo
 ---
 
+环境准备:
+    sudo apt-get install nodejs
+    sudo apt-get install npm
+    ubuntu会有问题要做软链接: sudo ln -s /usr/bin/nodejs  /usr/bin/node
+
 安装:
 	http://ibruce.info/2013/11/22/hexo-your-blog/
 	http://zipperary.com/2013/05/28/hexo-guide-2/
