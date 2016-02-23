@@ -3,13 +3,13 @@ date: 2015-07-28 15:12:32
 tags: [工具,翻墙]
 ---
 
-###安装服务端: 
+### 安装服务端: 
 sudo pip install shadowsocks
 
 ==========================
 
 
-###服务端配置: 
+### 服务端配置: 
 <pre><code>
 vim /etc/shadowsocks.json
 
@@ -32,14 +32,14 @@ vim /etc/shadowsocks.json
 ==========================
 
 
-###客户端win:
+### 客户端win:
 <a href="https://github.com/shadowsocks/shadowsocks-windows">点击这里下载客户端</a>
 然后打开按里面的界面配置就好了
 
 ==========================
 
 
-###客户端linux：
+### 客户端linux：
 安装: sudo pip install shadowsocks
 <pre><code>
 vim /etc/shadowsocks.json
@@ -63,13 +63,13 @@ vim /etc/shadowsocks.json
 
 ==========================
 
-###SwitchySharp配置(只有linux需要,win直接全局代理就好了)
+### SwitchySharp配置(只有linux需要,win直接全局代理就好了)
 只填SOCKS 代理那行，127.0.0.1:1080
 并且选择SOCKS v5
 
 ==========================
 
-###linux下命令行使用shadowsocks(proxychains)
+### linux下命令行使用shadowsocks(proxychains)
 安装: apt-get install proxychains
 只把[ProxyList]下面的socks4那行删掉改成
 

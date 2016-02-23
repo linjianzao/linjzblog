@@ -21,6 +21,6 @@ makedown:
 	http://xbeta.org/wiki/show/Markdown
 	
 异地:
-    从github载自己的项目下来，然后对下最新版本的package.json,因为可能hexo作者新版本有改
+    从github载自己的项目下来，然后对照下最新版本的package.json,因为可能hexo作者新版本有改这个json文件
     然后npm install 后，就可以用hexo s 看下效果
     
